@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Set body position to relative */
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents horizontally */
+    position: relative; /* Set container position to relative */
+}
+
+.content-wrapper {
+    position: absolute; /* Position the content wrapper absolutely */
+    bottom: 0; /* Align the content wrapper to the bottom */
+    left: 50%; /* Align the content wrapper horizontally at the middle */
+    transform: translateX(-50%); /* Center the content wrapper horizontally */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #333;
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Message container styles */
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-message {
+    margin-bottom: 5px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.right-message {
+    text-align: center;
+}
+
+.message {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* Signature styles */
+.signature {
+    font-style: italic;
+    text-align: right;
+}
+
+/* Button group styles */
+.button-group {
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; /* Set button group position to relative */
+}
+
+.pages-btn {
+    padding: 10px 20px;
+    background-color: #050505;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.pages-btn:hover {
+    background-color: #000000;
+}
+
+/* Audio player styles */
+audio {
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 100px; /* Add margin for spacing */
+    position: absolute; /* Position the audio element absolutely */
+    bottom: 0; /* Align the audio element to the bottom */
+    left: 50%; /* Align the audio element horizontally at the middle */
+    transform: translateX(-50%); /* Center the audio element horizontally */
+}
